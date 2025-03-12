@@ -1,57 +1,288 @@
-/* File css */
-
-.main-header {
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9f4;
+    text-align: center;
+  }
+  
+  .navbar2-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.main.logo {
+    padding: 20px 30px;
+    background-color: #2b6777;
+    
+  }
+  
+  .navbar2-image1 {
     height: 50px;
-    width: 50px;
-    background-image: url(https://i0.wp.com/tesstifin.id/wp-content/uploads/2021/01/logo-tes-stifin-.png?ssl=1);
-    background-size: cover;
-    border-radius: 50%;
-}
-
-nav {
+    height: auto;
+    width: 100px;
+   
+  }
+  
+  .navbar2-links1 {
     display: flex;
-}
-
-nav > a {
-    padding: 8px;
-    border: 1px solid;
+    gap: 20px;
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    color: white;
     text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero7-wrapper {
+    background: url('public/stifin-banner.jpg') no-repeat center center/cover;
     color: black;
+    padding: 200px 20px;
+    
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #52ab98;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #41968b;
+  }
+  
+  .content-section {
+    padding: 50px 20px;
+  }
+  
+  .footer-section {
+    background-color: #2b6777;
+    color: white;
+    padding: 20px;
+  }
+  
+  .home-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 10%;
+  background-color: #f4f9f4;
 }
 
-.banner-img {
-    border: 1px solid;
-    height: 500px;
+.home-content {
+  max-width: 50%;
+  text-align: left;
 }
 
-.our-profile-content {
-    border: 1px solid;
-    height: 500px;
-    align-content: center;
-    text-align: center;
+.home-content h1 {
+  font-size: 36px;
+  color: #2b6777;
+  margin-bottom: 10px;
 }
 
-
-.achievement-content {
-    border: 1px solid;
-    height: 500px;
-    align-content: center;
-    text-align: center;
+.home-content p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
 }
 
-.message-us-content {
-    border: 1px solid;
-    height: 500px;
-    align-content: center;
-    text-align: center;
+.home-benefits {
+  list-style: none;
+  padding: 0;
 }
 
-footer {
-    text-align: center;
+.home-benefits li {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
 }
+
+.home-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #52ab98;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #41968b;
+}
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 10%;
+  background-color: #f4f9f4;
+}
+
+.home-content {
+  max-width: 50%;
+  text-align: left;
+}
+
+.home-content h1 {
+  font-size: 36px;
+  color: #2b6777;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.home-benefits {
+  list-style: none;
+  padding: 0;
+}
+
+.home-benefits li {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.home-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #52ab98;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #41968b;
+}
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 80px 10%;
+  background-color: #f4f9f4;
+}
+
+.home-content {
+  max-width: 50%;
+  text-align: left;
+}
+
+.home-content h1 {
+  font-size: 36px;
+  color: #2b6777;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.home-benefits {
+  list-style: none;
+  padding: 0;
+}
+
+.home-benefits li {
+  font-size: 16px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.home-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #52ab98;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #41968b;
+}
+
+.home-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 10%;
+    background-color: #f4f9f4;
+  }
+  
+  .home-content {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .home-content h1 {
+    font-size: 36px;
+    color: #2b6777;
+    margin-bottom: 10px;
+  }
+  
+  .home-content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .home-benefits {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .home-benefits li {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  .home-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #52ab98;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .button:hover {
+    background-color: #41968b;
+  }
+  
