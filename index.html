@@ -12,13 +12,33 @@
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
+<!-- Modal Popup -->
+<div id="modalTestStifin" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Formulir Tes STIFIn</h2>
+    <form>
+      <label for="name">Nama:</label>
+      <input type="text" id="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <button type="submit" class="submit-btn">Mulai Tes</button>
+    </form>
+  </div>
+</div>
+
+
 <body>
   <div class="home-container">
 
     <!--Navbar-->
     <nav class="navbar2-wrapper">
       <header class="navbar2-container">
-        <img alt="STIFIn Logo" src="https://i0.wp.com/tesstifin.id/wp-content/uploads/2021/01/logo-tes-stifin-.png?ssl=1" class="navbar2-image1" />
+        <img alt="STIFIn Logo"
+          src="https://i0.wp.com/tesstifin.id/wp-content/uploads/2021/01/logo-tes-stifin-.png?ssl=1"
+          class="navbar2-image1" />
         <nav class="navbar2-links1">
           <a href="#home" class="nav-link">Home</a>
           <a href="#test" class="nav-link">Tes STIFIn</a>
@@ -36,17 +56,40 @@
           Tes STIFIn membantu Anda menemukan potensi terbaik berdasarkan sidik jari Anda.
         </p>
         <p class="hero-text">
-        STIFIn adalah metode yang membantu Anda memahami diri berdasarkan sidik jari untuk mengetahui tipe kecerdasan dominan
+          STIFIn adalah metode yang membantu Anda memahami diri berdasarkan sidik jari untuk mengetahui tipe kecerdasan
+          dominan
         </p>
         <a href="#test" class="button">Mulai Tes STIFIn</a>
       </div>
     </section>
-    
+
+    <!-- Banner Auto Slide -->
+    <section id="banner" class="banner-section">
+      <div class="banner-container">
+        <div class="banner-slide fade">
+          <img src="https://stifinfamily.com/wp-content/uploads/2024/06/Mesin-Kecerdasan-STIFIn-Family-com-768x475.jpg" alt="STIFIn - Kenali Dirimu">
+          <div class="banner-text">Kenali Mesin Kecerdasanmu dengan STIFIn</div>
+        </div>
+        <div class="banner-slide fade">
+          <img src="https://tesstifin.id/wp-content/uploads/2022/11/Teori-Sirkulasi-STIFIn-2.jpg" alt="Tes STIFIn">
+          <div class="banner-text">Tes STIFIn Membantu Anda Memahami Potensi Diri</div>
+        </div>
+        <div class="banner-slide fade">
+          <img src="https://i0.wp.com/tesstifin.id/wp-content/uploads/2020/09/Apa-itu-stifin-tesstifin-ID.png?fit=1024%2C768&ssl=1" alt="STIFIn Karier">
+          <div class="banner-text">Temukan Karier yang Sesuai dengan Gaya Berpikirmu</div>
+        </div>
+
+        <!-- Tombol Navigasi -->
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+    </section>
 
     <!--Test STIFIn Section-->
     <section id="test" class="content-section">
       <h2>Apa Itu Tes STIFIn?</h2>
-      <p>STIFIn adalah metode pemetaan kecerdasan berdasarkan sidik jari, mengelompokkan manusia ke dalam 5 kategori utama.</p>
+      <p>STIFIn adalah metode pemetaan kecerdasan berdasarkan sidik jari, mengelompokkan manusia ke dalam 5 kategori
+        utama.</p>
     </section>
 
     <!--About STIFIn-->
@@ -63,7 +106,7 @@
 
   </div>
 
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
